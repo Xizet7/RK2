@@ -1,0 +1,114 @@
+body{
+    background: url("back.jpg") center no-repeat;
+    background-size: cover;
+}
+.reg{
+    color: #23211c;
+    display: flex;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.regbox{
+    padding: 40px 20px 120px 20px;
+    background-color: rgb(206, 163, 71);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: #23211c;
+}
+.regbox input{
+    font-size: 18px;
+    height: 25px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.regbox a {
+    background-color: aliceblue;
+    width: 180px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: #23211c;
+    margin-top: 40px;
+    text-decoration: none;
+    font-size: 32px;
+    
+}
+.regbox button{
+    width: 180px;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.big_block{
+    display:flex;
+}
+.big_block ul{
+    border-style:solid;
+    border-color:black;
+    border-top:none;
+    border-bottom:none;
+    border-left:none;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    height:100%;
+    width:250px;
+    margin-right: 10px;
+    font-size: 30px;
+}
+.medium_block{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width: 100%;
+    
+}
+.film {
+    width:400px;
+    height: 250px;
+    border-style:solid;
+    color:black;
+    display:flex;
+    margin-bottom: 10px;
+    border-radius:10%;
+    background-color: bisque;
+}
+.film img{
+    width: 100px;
+    height: 100px;
+    margin-right:20px;
+    margin-top:10px;
+    margin-left: 10px;
+    border-radius: 100%;
+    border-style:double;
+}
+.email{
+    margin-top: 120px;
+    margin-left: 60px;
+}
+
+header{
+    height: 200px;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+}
+@media screen and (max-width: 1000px) {
+    .film{
+        width: 280px;
+        height: 350px;
+    }
+}

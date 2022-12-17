@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <button onclick="logout()">Выйти из аккаунта</button>
+        <p>КОФЕ</p>
+    </header>
+   
+   
+   <div class="medium_block">
+    <div class="block">
+        <div class="film">
+            <img src="https://vaya.in/recipes/wp-content/uploads/2018/05/Coffee.jpg" alt="">
+            <div class="text">
+                <h1>Латте</h1>
+                <p>Вкусный кофе</p>
+                
+            </div>
+        </div>
+        <div class="film">
+            <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/flat-white-3402c4f.jpg" alt="">
+            <div class="text">
+                <h1>Кофе с пенкой </h1>
+                <p>Не черный</p>
+                
+            </div>
+        </div>
+        <div class="film">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/1200px-A_small_cup_of_coffee.JPG" alt="">
+            <div class="text">
+                <h1>Черный кофе</h1>
+                <p>Черный</p>
+               
+            </div>
+        </div>
+    </div>
+        <div class="block2">
+        <div class="film">
+            <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/7/30/0/FN_coffee-cup-stock-getty_s6x4.jpg.rend.hgtvcom.616.411.suffix/1564517252380.jpeg" alt="">
+            <div class="text">
+                <h1>Еще кофе</h1>
+                <p>Поставь норм бал </p>
+                
+            </div>
+        </div>
+        <div class="film">
+            <img src="https://static.insales-cdn.com/images/products/1/777/301409033/large_%D0%BA%D0%BE%D1%84%D0%B5_Mac_Coffe_3_%D0%B2_1_20_%D0%B3%D1%80_%D1%81%D0%B8%D0%BD%D0%B3%D0%B0%D0%BF%D1%83%D1%80.jpg" alt="">
+            <div class="text">
+                <h1>Кофе</h1>
+                <p>Описание</p>
+                
+            </div>
+        </div>
+        <div class="film">
+            <img src="https://img.iamcook.ru/2020/upl/recipes/zen/u-dabf3af84b924b2207ea71a872c072e4.jpg" alt="">
+            <div class="text">
+                <h1>Якобс</h1>
+                <p>5/10</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<script src="show.js"></script>
+    <script>
+        if(sessionStorage.getItem('sessionuser')!=null){
+            listProducts('post-items-container');
+    
+}else {
+    alert("Вы не можете увидеть контент, так как не вошли в аккаунт");
+    window.location.href = "login.html";
+} 
+    </script>
+   
+
+</body>
+</html>
+</html>
